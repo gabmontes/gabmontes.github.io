@@ -169,6 +169,12 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+    article {
+      background-color: $post-color;
+      padding: $spacing-unit;
+      border: 1px solid $brand-color;
+    }
 }
 
 .page-heading {
